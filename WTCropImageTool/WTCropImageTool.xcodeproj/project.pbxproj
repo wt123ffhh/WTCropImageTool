@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043109061EE79E2D0010D26F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043109051EE79E2D0010D26F /* main.m */; };
+		043109091EE79E2D0010D26F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043109081EE79E2D0010D26F /* AppDelegate.m */; };
+		0431090C1EE79E2D0010D26F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431090B1EE79E2D0010D26F /* ViewController.m */; };
+		0431090F1EE79E2D0010D26F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431090D1EE79E2D0010D26F /* Main.storyboard */; };
+		043109111EE79E2D0010D26F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043109101EE79E2D0010D26F /* Assets.xcassets */; };
+		043109141EE79E2D0010D26F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043109121EE79E2D0010D26F /* LaunchScreen.storyboard */; };
+		0431091F1EE79E2D0010D26F /* WTCropImageToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431091E1EE79E2D0010D26F /* WTCropImageToolTests.m */; };
+		0431092A1EE79E2E0010D26F /* WTCropImageToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043109291EE79E2E0010D26F /* WTCropImageToolUITests.m */; };
+		043109421EE7A1730010D26F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 043109411EE7A1730010D26F /* UIView+Extension.m */; };
+		043109601EE7F8390010D26F /* croppoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 0431094E1EE7F8390010D26F /* croppoint.png */; };
+		043109611EE7F8390010D26F /* cropScale0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0431094F1EE7F8390010D26F /* cropScale0.png */; };
+		043109621EE7F8390010D26F /* cropScale00.png in Resources */ = {isa = PBXBuildFile; fileRef = 043109501EE7F8390010D26F /* cropScale00.png */; };
+		043109631EE7F8390010D26F /* cropScale01.png in Resources */ = {isa = PBXBuildFile; fileRef = 043109511EE7F8390010D26F /* cropScale01.png */; };
+		043109641EE7F8390010D26F /* cropScale02.png in Resources */ = {isa = PBXBuildFile; fileRef = 043109521EE7F8390010D26F /* cropScale02.png */; };
+		043109651EE7F8390010D26F /* cropScale03.png in Resources */ = {isa = PBXBuildFile; fileRef = 043109531EE7F8390010D26F /* cropScale03.png */; };
+		043109661EE7F8390010D26F /* cropScale04.png in Resources */ = {isa = PBXBuildFile; fileRef = 043109541EE7F8390010D26F /* cropScale04.png */; };
+		043109671EE7F8390010D26F /* cropScale05.png in Resources */ = {isa = PBXBuildFile; fileRef = 043109551EE7F8390010D26F /* cropScale05.png */; };
+		043109681EE7F8390010D26F /* cropScale06.png in Resources */ = {isa = PBXBuildFile; fileRef = 043109561EE7F8390010D26F /* cropScale06.png */; };
+		043109691EE7F8390010D26F /* cropScale07.png in Resources */ = {isa = PBXBuildFile; fileRef = 043109571EE7F8390010D26F /* cropScale07.png */; };
+		0431096A1EE7F8390010D26F /* cropScale1.png in Resources */ = {isa = PBXBuildFile; fileRef = 043109581EE7F8390010D26F /* cropScale1.png */; };
+		0431096B1EE7F8390010D26F /* cropScale2.png in Resources */ = {isa = PBXBuildFile; fileRef = 043109591EE7F8390010D26F /* cropScale2.png */; };
+		0431096C1EE7F8390010D26F /* cropScale3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0431095A1EE7F8390010D26F /* cropScale3.png */; };
+		0431096D1EE7F8390010D26F /* cropScale4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0431095B1EE7F8390010D26F /* cropScale4.png */; };
+		0431096E1EE7F8390010D26F /* cropScale5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0431095C1EE7F8390010D26F /* cropScale5.png */; };
+		0431096F1EE7F8390010D26F /* cropScale6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0431095D1EE7F8390010D26F /* cropScale6.png */; };
+		043109701EE7F8390010D26F /* cropScale7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0431095E1EE7F8390010D26F /* cropScale7.png */; };
+		043109711EE7F8390010D26F /* cropsquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 0431095F1EE7F8390010D26F /* cropsquare.png */; };
+		043109751EE7F96F0010D26F /* WTCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043109731EE7F96F0010D26F /* WTCropViewController.m */; };
+		043109761EE7F96F0010D26F /* WTCropViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043109741EE7F96F0010D26F /* WTCropViewController.xib */; };
+		0431097B1EE7FA620010D26F /* secCancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043109771EE7FA620010D26F /* secCancel@2x.png */; };
+		0431097C1EE7FA620010D26F /* secCancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043109781EE7FA620010D26F /* secCancel@3x.png */; };
+		0431097D1EE7FA620010D26F /* secRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043109791EE7FA620010D26F /* secRight@2x.png */; };
+		0431097E1EE7FA620010D26F /* secRight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0431097A1EE7FA620010D26F /* secRight@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0431091B1EE79E2D0010D26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043108F91EE79E2D0010D26F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043109001EE79E2D0010D26F;
+			remoteInfo = WTCropImageTool;
+		};
+		043109261EE79E2D0010D26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043108F91EE79E2D0010D26F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043109001EE79E2D0010D26F;
+			remoteInfo = WTCropImageTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043109011EE79E2D0010D26F /* WTCropImageTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTCropImageTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043109051EE79E2D0010D26F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043109071EE79E2D0010D26F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043109081EE79E2D0010D26F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0431090A1EE79E2D0010D26F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0431090B1EE79E2D0010D26F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0431090E1EE79E2D0010D26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043109101EE79E2D0010D26F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043109131EE79E2D0010D26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043109151EE79E2D0010D26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0431091A1EE79E2D0010D26F /* WTCropImageToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTCropImageToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0431091E1EE79E2D0010D26F /* WTCropImageToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCropImageToolTests.m; sourceTree = "<group>"; };
+		043109201EE79E2D0010D26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043109251EE79E2D0010D26F /* WTCropImageToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTCropImageToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043109291EE79E2E0010D26F /* WTCropImageToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCropImageToolUITests.m; sourceTree = "<group>"; };
+		0431092B1EE79E2E0010D26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043109401EE7A1730010D26F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		043109411EE7A1730010D26F /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		0431094E1EE7F8390010D26F /* croppoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = croppoint.png; sourceTree = "<group>"; };
+		0431094F1EE7F8390010D26F /* cropScale0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale0.png; sourceTree = "<group>"; };
+		043109501EE7F8390010D26F /* cropScale00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale00.png; sourceTree = "<group>"; };
+		043109511EE7F8390010D26F /* cropScale01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale01.png; sourceTree = "<group>"; };
+		043109521EE7F8390010D26F /* cropScale02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale02.png; sourceTree = "<group>"; };
+		043109531EE7F8390010D26F /* cropScale03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale03.png; sourceTree = "<group>"; };
+		043109541EE7F8390010D26F /* cropScale04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale04.png; sourceTree = "<group>"; };
+		043109551EE7F8390010D26F /* cropScale05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale05.png; sourceTree = "<group>"; };
+		043109561EE7F8390010D26F /* cropScale06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale06.png; sourceTree = "<group>"; };
+		043109571EE7F8390010D26F /* cropScale07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale07.png; sourceTree = "<group>"; };
+		043109581EE7F8390010D26F /* cropScale1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale1.png; sourceTree = "<group>"; };
+		043109591EE7F8390010D26F /* cropScale2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale2.png; sourceTree = "<group>"; };
+		0431095A1EE7F8390010D26F /* cropScale3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale3.png; sourceTree = "<group>"; };
+		0431095B1EE7F8390010D26F /* cropScale4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale4.png; sourceTree = "<group>"; };
+		0431095C1EE7F8390010D26F /* cropScale5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale5.png; sourceTree = "<group>"; };
+		0431095D1EE7F8390010D26F /* cropScale6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale6.png; sourceTree = "<group>"; };
+		0431095E1EE7F8390010D26F /* cropScale7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropScale7.png; sourceTree = "<group>"; };
+		0431095F1EE7F8390010D26F /* cropsquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropsquare.png; sourceTree = "<group>"; };
+		043109721EE7F96F0010D26F /* WTCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTCropViewController.h; sourceTree = "<group>"; };
+		043109731EE7F96F0010D26F /* WTCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTCropViewController.m; sourceTree = "<group>"; };
+		043109741EE7F96F0010D26F /* WTCropViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTCropViewController.xib; sourceTree = "<group>"; };
+		043109771EE7FA620010D26F /* secCancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secCancel@2x.png"; sourceTree = "<group>"; };
+		043109781EE7FA620010D26F /* secCancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secCancel@3x.png"; sourceTree = "<group>"; };
+		043109791EE7FA620010D26F /* secRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secRight@2x.png"; sourceTree = "<group>"; };
+		0431097A1EE7FA620010D26F /* secRight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "secRight@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043108FE1EE79E2D0010D26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043109171EE79E2D0010D26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043109221EE79E2D0010D26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043108F81EE79E2D0010D26F = {
+			isa = PBXGroup;
+			children = (
+				043109031EE79E2D0010D26F /* WTCropImageTool */,
+				0431091D1EE79E2D0010D26F /* WTCropImageToolTests */,
+				043109281EE79E2D0010D26F /* WTCropImageToolUITests */,
+				043109021EE79E2D0010D26F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043109021EE79E2D0010D26F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043109011EE79E2D0010D26F /* WTCropImageTool.app */,
+				0431091A1EE79E2D0010D26F /* WTCropImageToolTests.xctest */,
+				043109251EE79E2D0010D26F /* WTCropImageToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043109031EE79E2D0010D26F /* WTCropImageTool */ = {
+			isa = PBXGroup;
+			children = (
+				0431094D1EE7F8390010D26F /* crop */,
+				0431093C1EE7A0EC0010D26F /* tool */,
+				043109071EE79E2D0010D26F /* AppDelegate.h */,
+				043109081EE79E2D0010D26F /* AppDelegate.m */,
+				043109721EE7F96F0010D26F /* WTCropViewController.h */,
+				043109731EE7F96F0010D26F /* WTCropViewController.m */,
+				043109741EE7F96F0010D26F /* WTCropViewController.xib */,
+				0431090A1EE79E2D0010D26F /* ViewController.h */,
+				0431090B1EE79E2D0010D26F /* ViewController.m */,
+				0431090D1EE79E2D0010D26F /* Main.storyboard */,
+				043109101EE79E2D0010D26F /* Assets.xcassets */,
+				043109121EE79E2D0010D26F /* LaunchScreen.storyboard */,
+				043109151EE79E2D0010D26F /* Info.plist */,
+				043109041EE79E2D0010D26F /* Supporting Files */,
+			);
+			path = WTCropImageTool;
+			sourceTree = "<group>";
+		};
+		043109041EE79E2D0010D26F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043109051EE79E2D0010D26F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0431091D1EE79E2D0010D26F /* WTCropImageToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				0431091E1EE79E2D0010D26F /* WTCropImageToolTests.m */,
+				043109201EE79E2D0010D26F /* Info.plist */,
+			);
+			path = WTCropImageToolTests;
+			sourceTree = "<group>";
+		};
+		043109281EE79E2D0010D26F /* WTCropImageToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043109291EE79E2E0010D26F /* WTCropImageToolUITests.m */,
+				0431092B1EE79E2E0010D26F /* Info.plist */,
+			);
+			path = WTCropImageToolUITests;
+			sourceTree = "<group>";
+		};
+		0431093C1EE7A0EC0010D26F /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				043109401EE7A1730010D26F /* UIView+Extension.h */,
+				043109411EE7A1730010D26F /* UIView+Extension.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		0431094D1EE7F8390010D26F /* crop */ = {
+			isa = PBXGroup;
+			children = (
+				043109771EE7FA620010D26F /* secCancel@2x.png */,
+				043109781EE7FA620010D26F /* secCancel@3x.png */,
+				043109791EE7FA620010D26F /* secRight@2x.png */,
+				0431097A1EE7FA620010D26F /* secRight@3x.png */,
+				0431094E1EE7F8390010D26F /* croppoint.png */,
+				0431094F1EE7F8390010D26F /* cropScale0.png */,
+				043109501EE7F8390010D26F /* cropScale00.png */,
+				043109511EE7F8390010D26F /* cropScale01.png */,
+				043109521EE7F8390010D26F /* cropScale02.png */,
+				043109531EE7F8390010D26F /* cropScale03.png */,
+				043109541EE7F8390010D26F /* cropScale04.png */,
+				043109551EE7F8390010D26F /* cropScale05.png */,
+				043109561EE7F8390010D26F /* cropScale06.png */,
+				043109571EE7F8390010D26F /* cropScale07.png */,
+				043109581EE7F8390010D26F /* cropScale1.png */,
+				043109591EE7F8390010D26F /* cropScale2.png */,
+				0431095A1EE7F8390010D26F /* cropScale3.png */,
+				0431095B1EE7F8390010D26F /* cropScale4.png */,
+				0431095C1EE7F8390010D26F /* cropScale5.png */,
+				0431095D1EE7F8390010D26F /* cropScale6.png */,
+				0431095E1EE7F8390010D26F /* cropScale7.png */,
+				0431095F1EE7F8390010D26F /* cropsquare.png */,
+			);
+			path = crop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043109001EE79E2D0010D26F /* WTCropImageTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0431092E1EE79E2E0010D26F /* Build configuration list for PBXNativeTarget "WTCropImageTool" */;
+			buildPhases = (
+				043108FD1EE79E2D0010D26F /* Sources */,
+				043108FE1EE79E2D0010D26F /* Frameworks */,
+				043108FF1EE79E2D0010D26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTCropImageTool;
+			productName = WTCropImageTool;
+			productReference = 043109011EE79E2D0010D26F /* WTCropImageTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043109191EE79E2D0010D26F /* WTCropImageToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043109311EE79E2E0010D26F /* Build configuration list for PBXNativeTarget "WTCropImageToolTests" */;
+			buildPhases = (
+				043109161EE79E2D0010D26F /* Sources */,
+				043109171EE79E2D0010D26F /* Frameworks */,
+				043109181EE79E2D0010D26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0431091C1EE79E2D0010D26F /* PBXTargetDependency */,
+			);
+			name = WTCropImageToolTests;
+			productName = WTCropImageToolTests;
+			productReference = 0431091A1EE79E2D0010D26F /* WTCropImageToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043109241EE79E2D0010D26F /* WTCropImageToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043109341EE79E2E0010D26F /* Build configuration list for PBXNativeTarget "WTCropImageToolUITests" */;
+			buildPhases = (
+				043109211EE79E2D0010D26F /* Sources */,
+				043109221EE79E2D0010D26F /* Frameworks */,
+				043109231EE79E2D0010D26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043109271EE79E2D0010D26F /* PBXTargetDependency */,
+			);
+			name = WTCropImageToolUITests;
+			productName = WTCropImageToolUITests;
+			productReference = 043109251EE79E2D0010D26F /* WTCropImageToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043108F91EE79E2D0010D26F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wtWork;
+				TargetAttributes = {
+					043109001EE79E2D0010D26F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					043109191EE79E2D0010D26F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 043109001EE79E2D0010D26F;
+					};
+					043109241EE79E2D0010D26F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 043109001EE79E2D0010D26F;
+					};
+				};
+			};
+			buildConfigurationList = 043108FC1EE79E2D0010D26F /* Build configuration list for PBXProject "WTCropImageTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043108F81EE79E2D0010D26F;
+			productRefGroup = 043109021EE79E2D0010D26F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043109001EE79E2D0010D26F /* WTCropImageTool */,
+				043109191EE79E2D0010D26F /* WTCropImageToolTests */,
+				043109241EE79E2D0010D26F /* WTCropImageToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043108FF1EE79E2D0010D26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043109601EE7F8390010D26F /* croppoint.png in Resources */,
+				0431096A1EE7F8390010D26F /* cropScale1.png in Resources */,
+				043109691EE7F8390010D26F /* cropScale07.png in Resources */,
+				043109621EE7F8390010D26F /* cropScale00.png in Resources */,
+				0431096C1EE7F8390010D26F /* cropScale3.png in Resources */,
+				043109141EE79E2D0010D26F /* LaunchScreen.storyboard in Resources */,
+				043109681EE7F8390010D26F /* cropScale06.png in Resources */,
+				043109671EE7F8390010D26F /* cropScale05.png in Resources */,
+				043109711EE7F8390010D26F /* cropsquare.png in Resources */,
+				043109111EE79E2D0010D26F /* Assets.xcassets in Resources */,
+				043109701EE7F8390010D26F /* cropScale7.png in Resources */,
+				043109761EE7F96F0010D26F /* WTCropViewController.xib in Resources */,
+				0431090F1EE79E2D0010D26F /* Main.storyboard in Resources */,
+				0431096F1EE7F8390010D26F /* cropScale6.png in Resources */,
+				043109641EE7F8390010D26F /* cropScale02.png in Resources */,
+				043109661EE7F8390010D26F /* cropScale04.png in Resources */,
+				0431096D1EE7F8390010D26F /* cropScale4.png in Resources */,
+				0431097D1EE7FA620010D26F /* secRight@2x.png in Resources */,
+				043109611EE7F8390010D26F /* cropScale0.png in Resources */,
+				043109631EE7F8390010D26F /* cropScale01.png in Resources */,
+				043109651EE7F8390010D26F /* cropScale03.png in Resources */,
+				0431096E1EE7F8390010D26F /* cropScale5.png in Resources */,
+				0431097B1EE7FA620010D26F /* secCancel@2x.png in Resources */,
+				0431096B1EE7F8390010D26F /* cropScale2.png in Resources */,
+				0431097E1EE7FA620010D26F /* secRight@3x.png in Resources */,
+				0431097C1EE7FA620010D26F /* secCancel@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043109181EE79E2D0010D26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043109231EE79E2D0010D26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043108FD1EE79E2D0010D26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043109421EE7A1730010D26F /* UIView+Extension.m in Sources */,
+				0431090C1EE79E2D0010D26F /* ViewController.m in Sources */,
+				043109751EE7F96F0010D26F /* WTCropViewController.m in Sources */,
+				043109091EE79E2D0010D26F /* AppDelegate.m in Sources */,
+				043109061EE79E2D0010D26F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043109161EE79E2D0010D26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0431091F1EE79E2D0010D26F /* WTCropImageToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043109211EE79E2D0010D26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0431092A1EE79E2E0010D26F /* WTCropImageToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0431091C1EE79E2D0010D26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043109001EE79E2D0010D26F /* WTCropImageTool */;
+			targetProxy = 0431091B1EE79E2D0010D26F /* PBXContainerItemProxy */;
+		};
+		043109271EE79E2D0010D26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043109001EE79E2D0010D26F /* WTCropImageTool */;
+			targetProxy = 043109261EE79E2D0010D26F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0431090D1EE79E2D0010D26F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0431090E1EE79E2D0010D26F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043109121EE79E2D0010D26F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043109131EE79E2D0010D26F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0431092C1EE79E2E0010D26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0431092D1EE79E2E0010D26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0431092F1EE79E2E0010D26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WTCropImageTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.wtWork.WTCropImageTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		043109301EE79E2E0010D26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WTCropImageTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.wtWork.WTCropImageTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		043109321EE79E2E0010D26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTCropImageToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.wtWork.WTCropImageToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTCropImageTool.app/WTCropImageTool";
+			};
+			name = Debug;
+		};
+		043109331EE79E2E0010D26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTCropImageToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.wtWork.WTCropImageToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTCropImageTool.app/WTCropImageTool";
+			};
+			name = Release;
+		};
+		043109351EE79E2E0010D26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTCropImageToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.wtWork.WTCropImageToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTCropImageTool;
+			};
+			name = Debug;
+		};
+		043109361EE79E2E0010D26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTCropImageToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.wtWork.WTCropImageToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTCropImageTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043108FC1EE79E2D0010D26F /* Build configuration list for PBXProject "WTCropImageTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0431092C1EE79E2E0010D26F /* Debug */,
+				0431092D1EE79E2E0010D26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0431092E1EE79E2E0010D26F /* Build configuration list for PBXNativeTarget "WTCropImageTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0431092F1EE79E2E0010D26F /* Debug */,
+				043109301EE79E2E0010D26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		043109311EE79E2E0010D26F /* Build configuration list for PBXNativeTarget "WTCropImageToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043109321EE79E2E0010D26F /* Debug */,
+				043109331EE79E2E0010D26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		043109341EE79E2E0010D26F /* Build configuration list for PBXNativeTarget "WTCropImageToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043109351EE79E2E0010D26F /* Debug */,
+				043109361EE79E2E0010D26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043108F91EE79E2D0010D26F /* Project object */;
+}

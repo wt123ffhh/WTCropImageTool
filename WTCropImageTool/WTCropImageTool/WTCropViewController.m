@@ -6,10 +6,7 @@
 #import "UIView+Extension.h"
 //#import "UIColor+Tools.h"
 
-@interface WTCropViewController (){
-    
-    UIView        * _adBarView;
-}
+@interface WTCropViewController ()
 @property (weak, nonatomic)  UIImageView *myImgView;
 @property (weak, nonatomic)  UIView *coverView;
 @property (weak, nonatomic) IBOutlet UILabel *cropLabel;
@@ -31,15 +28,12 @@
 @property (nonatomic, weak) UIImageView *squareImgView;
 
 @property (nonatomic, weak) UIButton *slcBarBtn;
-@property (nonatomic, retain) IBOutlet UIView  *adBarView;
 
 
-//@property (nonatomic, strong) FBAdView *fbAdView;
 @end
 #define kSWidth  ([UIScreen mainScreen].bounds.size.width)
 #define kSHeight ([UIScreen mainScreen].bounds.size.height)
 @implementation WTCropViewController
-@synthesize adBarView;
 - (BOOL)prefersStatusBarHidden
 {
     return YES;
@@ -55,6 +49,7 @@
     [self setupImgView];
     [self setupCropView];
     [self setupBottomBar];
+    [self setupBarView];
 }
 - (void)setupBottomBar {
     UIView *bottomBarView = [[UIView alloc] init];
@@ -93,7 +88,7 @@
 - (void)setupImgView
 {
     UIImageView *myImgView = [[UIImageView alloc] init];
-    myImgView.frame = CGRectMake(10, 20, kSWidth-20, kSHeight-80-20);
+    myImgView.frame = CGRectMake(10, 20, kSWidth-20, kSHeight-80-80);
     myImgView.backgroundColor = [UIColor clearColor];
     [self.view addSubview:myImgView];
     self.myImgView = myImgView;
@@ -202,12 +197,8 @@
 - (void)setupBarView
 {
     UIScrollView *barView = [[UIScrollView alloc] init];
-    barView.frame = CGRectMake(0, 568-130, 320, 80);
-    if ([UIScreen mainScreen].bounds.size.height==480) {
-        barView.y = 340+50;
-    }if ([UIScreen mainScreen].bounds.size.height==1024) {
-        barView.frame = CGRectMake(134, 1024-135-40, 500, 80);
-    }
+    barView.frame = CGRectMake(0, kSHeight-80-50, kSWidth, 80);
+    
     barView.contentSize = CGSizeMake(500, 80);
     barView.backgroundColor = [UIColor clearColor];
     barView.bounces = NO;
